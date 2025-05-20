@@ -41,4 +41,4 @@ history = model.fit(train_data, epochs=5, validation_data=val_data)
 # 6 Save model
 model.save('mask_detector_model.h5')
 
-print("✅ Model training complete and saved as 'mask_detector_model.h5'")
+print(" Model training complete and saved as 'mask_detector_model.h5'")
